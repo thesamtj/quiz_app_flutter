@@ -52,5 +52,10 @@ class QuizBrain {
     } else {
       return false;
     }
+
+    //Create a reset() method here that sets the questionNumber back to 0.
+    void reset() {
+      _questionNumber = 0;
+    }
   }
 }
