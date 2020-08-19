@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'question.dart';
 
 void main() => runApp(Quizzler());
 
@@ -34,6 +35,9 @@ class _QuizPageState extends State<QuizPage> {
     'A slug\'s blood is green.'
   ];
   List<bool> answers = [false, true, true];
+
+  Question q1 =
+      Question(q: 'You can lead a cow down stairs but not up stairs.');
 
   @override
   Widget build(BuildContext context) {
